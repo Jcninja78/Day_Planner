@@ -33,11 +33,6 @@ for (i = 9; i <= 17; i++) {
         timeFrame.addClass("past");
     } 
 
-
-    
-    
-   
-
     var saveButton = $("<button>")
     saveButton.addClass("col-2 saveBtn")
 
@@ -45,19 +40,18 @@ for (i = 9; i <= 17; i++) {
     timeSlots.append(newHour);
 }
 
-var button = localStorage.getItem("saveBtn");
+// function storeToDos() {
+//     localStorage.setItem("todos", JSON.stringify(todos));
+// }
+// $("button").on("click", function(e){
+//     event.preventDefault());
+// }
 
-$(".saveBtn").on("click", function(){
-    event.preventDefault();
-    var button = $(".saveBtn").val();
-    localStorage.setItem("saveBtn", button)
-})
+// todos.push(timeFrame.value.trim());
+// timeFrame.value = "";
 
+// storeToDos();
 
-// 
-// 
-// 
-// 
-// 
-// 
-// 
+// function init() {
+//     var toDoList = JSON.parse(localStorage.getItem("todos"));
+// }
