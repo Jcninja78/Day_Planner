@@ -13,3 +13,5 @@ Clicking a timeblock's "Save" button stores the input text in local storage, all
 The current day is displayed at the top of the calendar.
 
 Each timeblock is color coded to indicate whether it is in a past, present, or future hour.
+
+I was unable to get the "save to local storage" function to work without completely breaking the page. I had a lot of help from my tutor and I went to a couple study groups that were really helpful as well. I wouldn't have gotten as far as I did if it wasn't for Brandon Fall's help. He explained formatting and if/else statments in such a way that I could actually understand.
